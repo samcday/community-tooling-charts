@@ -123,6 +123,7 @@ service:
   type: ClusterIP
   annotations: {}
   labels: {}
+  externalTrafficPolicy: ~
 
   # -- List of ports. If you override it, you will have to explicitly add the default again.
   ports:
