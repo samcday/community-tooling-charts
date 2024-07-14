@@ -122,6 +122,7 @@ startupProbe: ~
 service:
   type: ClusterIP
   annotations: {}
+  labels: {}
 
   # -- List of ports. If you override it, you will have to explicitly add the default again.
   ports:
